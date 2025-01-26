@@ -39,7 +39,7 @@ extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 const Button = React.forwardRef<HTMLButtonElement,ButtonProps> (
-  ({ className , variants = "default" , size = "default", asChild = boolean, ...props}, ref) => {
+  ({ className , variants = "default" , size = "default", asChild = "default", ...props}, ref) => {
     const Comp = "button";
     return(
       <Comp
