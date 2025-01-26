@@ -58,12 +58,12 @@ export default function Post ({params}:{params: {id: string}}) {
         {Post.title}
       </h1>
 
- {Post.image && (
+ 
         <img 
         src={Post.image}
         alt={Post.title}
         className='w-full h-auto rounded-md mt-4'/>
-      )}
+      
       <div className='mt-6 text-lg text-slate-700'>
         {renderParagraphs(Post.description)}
          </div>
