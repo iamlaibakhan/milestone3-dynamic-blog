@@ -5,10 +5,9 @@ export default function AuthorCard() {
     <div className='bg-white shadow-lg rounded-lg p-3 mt-3'>
       <div className='flex items-center animation-fadeIn'>
         <div>
-          <h3 className='text-xl text-cyan-800 font-bold'>I'AM LAIBAKHAN </h3>
+          <h3 className='text-xl text-cyan-800 font-bold'>I'AM LAIBAKHAN</h3>
           <p className='text-slate-400'>
-            {""}
-            UI/UX Designer | Web Developer {""} 
+            UI/UX Designer | Web Developer
             </p>
         </div>
       </div>
